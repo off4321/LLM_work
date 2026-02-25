@@ -1,0 +1,20 @@
+{
+'perplexity': 10.356324195861816, 
+'reasoning': 
+    {'hellaswag': 
+        {'alias':'hellaswag', 
+          'acc,none': 0.5, 
+          'acc_stderr,none': 0.050251890762960605, 
+          'acc_norm,none': 0.62, 
+          'acc_norm_stderr,none': 0.04878317312145634}, 
+      'gsm8k':  
+          {'alias': 'gsm8k', 
+            'exact_match,strict-match': 0.86, 
+            'exact_match_stderr,strict-match': 0.034873508801977704, 
+            'exact_match,flexible-extract': 0.75, 
+            'exact_match_stderr,flexible-extract': 0.04351941398892446
+          }
+    }, 
+  'code_syntax_rate': 0.5, 
+  'memo': '4bit'
+}
