@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen3-4B-Instruct",
+  "quantization_type": "fp16",
+  "timestamp_utc": "2026-02-22T15:00:00Z",
+  "environment": {
+    "model_size_gb": 8.12,
+    "gpu_memory_used_gb": 9.45,
+    "evaluation_limit": 100
+  },
+  "perplexity": 10.0493,
+  "reasoning": {
+    "gsm8k": {
+      "exact_match,strict-match": 0.89
+    },
+    "hellaswag": {
+      "acc_norm,none": 0.61
+    }
+  },
+  "code_syntax_rate": 0.92,
+  "notes": "Test upload"
+}
