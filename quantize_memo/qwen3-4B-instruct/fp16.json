@@ -1,0 +1,24 @@
+{
+  "perplexity": 10.0493,
+  "reasoning": {
+    "hellaswag": {
+      "alias": "hellaswag",
+      "acc,none": 0.48,
+      "acc_stderr,none": 0.0502,
+      "acc_norm,none": 0.61,
+      "acc_norm_stderr,none": 0.04902071300001973
+    },
+    "gsm8k": {
+      "alias": "gsm8k",
+      "exact_match,strict-match": 0.89,
+      "exact_match_stderr,strict-match": 0.03144660377352203,
+      "exact_match,flexible-extract": 0.88,
+      "exact_match_stderr,flexible-extract": 0.032659863237109066
+    }
+  },
+  "code_syntax_rate": 0.7,
+  "quantize_type": "FP16",
+  "limit": "100",
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_size": 7.492431163787842
+}
