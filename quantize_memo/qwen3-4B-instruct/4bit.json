@@ -15,6 +15,9 @@
             'exact_match_stderr,flexible-extract': 0.04351941398892446
           }
     }, 
-  'code_syntax_rate': 0.5, 
-  'memo': '4bit'
+    'code_syntax_rate': 0.5, 
+    'quantize_type': '4bit',
+    'limit': '100'
+    'model_id': 'wen/Qwen3-4B-Instruct-2507'
+    
 }
