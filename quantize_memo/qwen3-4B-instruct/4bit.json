@@ -19,5 +19,6 @@
   "code_syntax_rate": 0.5,
   "quantize_type": "4bit",
   "limit": "100",
-  "model_id": "Qwen/Qwen3-4B-Instruct-2507"
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_size": 2.416775
 }
