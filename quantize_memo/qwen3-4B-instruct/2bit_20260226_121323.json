@@ -1,0 +1,25 @@
+{
+  "perplexity": 89604.4375,
+  "reasoning": {
+    "hellaswag": {
+      "alias": "hellaswag",
+      "acc,none": 0.25,
+      "acc_stderr,none": 0.04351941398892446,
+      "acc_norm,none": 0.3,
+      "acc_norm_stderr,none": 0.04605661864718382
+    },
+    "gsm8k": {
+      "alias": "gsm8k",
+      "exact_match,strict-match": 0.0,
+      "exact_match_stderr,strict-match": 0.0,
+      "exact_match,flexible-extract": 0.0,
+      "exact_match_stderr,flexible-extract": 0.0
+    }
+  },
+  "code_syntax_rate": 0.0,
+  "quantize_type": "2bit",
+  "limit": 100,
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_size": 1.7784242630004883,
+  "memo": "fp16を2bitに変換しているためモデルサイズとしては1/8だが、測定上はfp16同等"
+}
